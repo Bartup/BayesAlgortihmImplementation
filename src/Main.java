@@ -9,7 +9,7 @@ public class Main {
 
         doWePlay(trainingList,testList);
 
-        System.out.println(//break);
+        System.out.println();
         System.out.println("Right decisions made based on training list: " + (correctPercent(trainingList) * 100) + "%");
         myOwnExamples(trainingList);
 
